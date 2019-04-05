@@ -8,52 +8,56 @@ public class Phone {
 	 */
 	
 	boolean screenTouch=true;
-	String madeIn;
+	String madeIn, model;
 	int ram;
 	
 	
 	public static void main(String[] args) {
+		System.out.println("-------------------- For object iPhone-------------");
 		// object 1
-		Phone iPhone=new Phone();
-		iPhone.screenTouch=true;
-		iPhone.madeIn="USA";
-		iPhone.ram=3;
+		Phone ph1=new Phone();
+		ph1.model="iPhone";
+		ph1.screenTouch=true;
+		ph1.madeIn="USA";
+		ph1.ram=3;
 		
-		iPhone.watchMovie();
-		iPhone.videoCall();
-		iPhone.playMusic();
-		
+		ph1.watchMovie();
+		ph1.videoCall();
+		ph1.playMusic();
+		System.out.println("-------------------- For object Android-------------");
 		//object 2
 		
-		Phone Android=new Phone();
-		Android.screenTouch=true;
-		Android.madeIn="XXX";
-		Android.ram=4;
+		Phone ph2=new Phone();
+		ph2.model="Android";
+		ph2.screenTouch=true;
+		ph2.madeIn="XXX";
+		ph2.ram=4;
 		
-		Android.watchMovie();
-		Android.videoCall();
-		Android.playMusic();
-		
+		ph2.watchMovie();
+		ph2.videoCall();
+		ph2.playMusic();
+		System.out.println("-------------------- For object Nokia-------------");
 		// object 3
 		
-		Phone Nokia=new Phone();
-		Nokia.screenTouch=false;
-		Nokia.madeIn="zzz";
-		Nokia.ram=4;
+		Phone ph3=new Phone();
+		ph3.model="Nokia";
+		ph3.screenTouch=false;
+		ph3.madeIn="zzz";
+		ph3.ram=4;
 		
-		Nokia.watchMovie();
-		Nokia.videoCall();
-		Nokia.playMusic();
+		ph3.watchMovie();
+		ph3.videoCall();
+		ph3.playMusic();
 	}
 	
 	void watchMovie() {
-		System.out.println("We can watch movie on a ");
+		System.out.println("We can watch movie on a "+model);
 	}
 	void videoCall() {
-		System.out.println("We can videoCall ");
+		System.out.println("We can videoCall on "+model);
 	}
 	void playMusic() {
-		System.out.println("We can play music ");
+		System.out.println("We can play music on "+model);
 	}
 		
 		
