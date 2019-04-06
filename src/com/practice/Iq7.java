@@ -1,6 +1,6 @@
-package com.class17;
+package com.practice;
 
-public class Task2 {
+public class Iq7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
