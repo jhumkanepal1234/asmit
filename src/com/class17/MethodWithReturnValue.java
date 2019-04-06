@@ -17,7 +17,8 @@ public class MethodWithReturnValue {
 		System.out.println("Today is " + day);
 		
 		//int num=obj.findLargestNum(20, 10);
-		int largestNum=obj.findLargestNum1(20, 10);
+		int largestNum = obj.findLargestNum1(20, 10);
+		
 		
 		boolean isOdd;
 		
