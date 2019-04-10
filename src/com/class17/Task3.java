@@ -4,17 +4,20 @@ public class Task3 {
 
 	public static void main(String[] args) {
 		
-		// Create a method that will print whether given String is palindrome or not.
+		/*
+		 * Create a method that will take a String and return whether String is palindrome or not. 
+		 * Method should available to all classes within your projects.
+		 */
 		
 		
 			Task3 str=new Task3();
-			str.palindrome("Hannah");
+			str.palindrome("Mom");
 			str.palindrome("Bob");
-			str.palindrome("John");
+			str.palindrome("Asmit");
 			
 	}
 
-	void palindrome(String str){
+	public void palindrome(String str){
 		String rev="";
 		for(int i=str.length()-1; i>=0; i--) {
 		 rev+=str.charAt(i);
