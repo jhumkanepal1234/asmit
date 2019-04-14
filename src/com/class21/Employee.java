@@ -3,7 +3,7 @@ package com.class21;
 public class Employee {
 	
 	static String CEO="Sumair";
-	private int eID;
+	 int eID;
 	int salary;
 	
 
