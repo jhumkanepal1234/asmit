@@ -21,4 +21,15 @@ String hairType="curly";
 	public void playTennis() {
 		System.out.println("Child 1 can play tennis");
 }
-}
+
+	
+
+
+	
+		
+	
+
+	
+		
+	}
+
