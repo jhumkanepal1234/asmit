@@ -6,5 +6,26 @@ public class Task1 {
 	 *  Then call each overloaded method with specific arguments and observe result
 	 */
 
-	private void 
+	public static void main(String[] args) {
+		Task1 obj=new Task1();
+		obj.add(3, 2);
+		obj.add(2.2, 3);
+		obj.add(3, 4, 5);
+		
+	}
+
+	private  void add(int a, int b) {
+		System.out.println(a+b);
+
+	}
+
+	private void add(double a, int b) {
+		System.out.println(a+b);
+
+	}
+
+	private void add(int b, int a,int c) {
+		System.out.println(a+b+c);
+
+	}
 }
